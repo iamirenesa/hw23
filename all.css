@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.goods_list{
+    position: absolute;
+    left: 300px;
+    top: 0;
+    display: none;
+}
+
+.categories_container {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    margin: 0;
+}
+
+.category,
+.goods{
+    padding: 3px;
+    list-style: none;
+}
+
+span{
+    padding: 3px;
+    display: inline-block;
+    width: max-content;
+}
+
+span:hover{
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 3px;
+}
+
+.info_container{
+    position: absolute;
+    left: 400px;
+    top: 0;
+    display: none;
+}
+
+.info_h4{
+    margin: 0;
+    padding: 3px 0 0 0;
+}
+
+.continue_button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    display: none;
+    margin: 10px 0;
+}
+
+.my_orders_button{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    margin: 10px 0;
+}
+
+.delete_button{
+    display: block;
+    position: relative;
+    top: 60%;
+    left: 60%;
+    margin: 10px 0;
+}
+
+.active{
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 3px;
+}
+.orders{
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.show{
+    display: block;
+}
+
+form{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.field{
+    margin:  0 0 10px 0;
+}
+
+form small{
+    color: red;
+}
+
+.has-error{
+    border: 1px solid red;
+}
+
+.form-data{
+    margin: 10px 0;
+}
+
